@@ -1,4 +1,5 @@
 import { Food } from "./app/model/food.model";
+import { Tag } from "./app/model/tags.model";
 
 export const sample_foods : Food[] = [
     {
@@ -89,4 +90,15 @@ export const sample_foods : Food[] = [
         imageUrl : 'assets/food-8.jpg',
         tags : ['FastFood' , 'Pizza', 'Lunch']
     },
+]
+
+export const sample_tags : Tag[] = [
+    {name : 'All' , count : 8},
+    {name : 'Fastfood' , count : 4},
+    {name : 'Pizza' , count : 3},
+    {name : 'lunch' , count : 3},
+    {name : 'slowfood' , count : 2},
+    {name : 'hamburger' , count : 2},
+    {name : 'fry' , count : 1},
+    {name : 'soup' , count : 1},
 ]
