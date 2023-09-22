@@ -20,10 +20,8 @@ img{
 }
 
 .details{
-    display: flex;
     width: 100%;
-    flex-direction: column;
-    flex: 1 0;
+    /* flex: 1 0; */
     border: 3rem;
     padding: 2rem;
     color: black;
@@ -31,7 +29,7 @@ img{
 }
 
 .header{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -50,8 +48,8 @@ img{
 }
 
 .origins{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     margin: 1rem 0;
 }
 
@@ -94,12 +92,26 @@ img{
 }
 
 .price::before{
-    contain: "Price : ";
+    content: "Price : ";
     color: #e27929;
 
 }
 
 
+
 button{
     background-color: #e72929;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10rem;
+    outline: none;
+}
+
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
 }
