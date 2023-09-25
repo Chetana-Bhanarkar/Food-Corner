@@ -40,7 +40,8 @@ img{
 
 .favourite{
     color: #e72929;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin: 0 10rem;
 }
 
 .favourite .not{
@@ -50,7 +51,7 @@ img{
 .origins{
     /* display: flex; */
     /* flex-wrap: wrap; */
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .origins span{
@@ -67,8 +68,8 @@ img{
 }
 
 .tags a{
-    padding: 0.3rem 1rem ;
-    margin: 0.2rem 0.15rem;
+    padding: 0.3rem 2rem ;
+    margin: 0.2rem 0.19rem;
     border-radius: 10rem;
     background-color: #f0f0f0;
     font-weight: bold;
