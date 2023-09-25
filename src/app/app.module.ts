@@ -8,6 +8,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { TagsComponent } from './pages/tags/tags.component';
 import { FoodComponent } from './pages/food/food.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { TitleComponent } from './pages/title/title.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CartComponent } from './pages/cart/cart.component';
     SearchComponent,
     TagsComponent,
     FoodComponent,
-    CartComponent
+    CartComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
