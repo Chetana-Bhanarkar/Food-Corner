@@ -1,0 +1,16 @@
+<app-title title="Cart Page" margin="1.5rem 0 0 2.4rem"></app-title>
+
+<div class="container">
+    <ul>
+        <li *ngFor="let cartitem of cart.items">
+            <div>
+                <img [src]="cartitem.food.imageUrl" [alt]="cartitem.food.name">
+            </div>
+            <div>
+                <a routerLink="/food/{{cartitem.food.id}}">
+                    {{cartitem.food.name}}
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
