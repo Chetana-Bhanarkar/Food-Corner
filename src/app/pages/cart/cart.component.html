@@ -11,6 +11,27 @@
                     {{cartitem.food.name}}
                 </a>
             </div>
+            <div>
+                <select name="" id="" #quantitySelect [value]="cartitem.quantity" (change)="changeQuantity(cartitem , quantitySelect.value)" >
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div>
+                {{cartitem.price | currency : "INR"}}
+            </div>
+            <div>
+                <button class="remove-button" (click)="removeFromCart(cartitem)">Remove</button>
+            </div>
         </li>
+        <div class="checkout">
+            <div class="food-count">{{cart.totalCount}}</div>
+            <div class="food-count">{{cart.totalPrice}}</div>
+        </div>
     </ul>
+
+    <a routerLink="/checkout">Proceed to Checkout</a>
 </div>
