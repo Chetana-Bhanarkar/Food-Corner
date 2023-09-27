@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+    align-items: flex-start ;
+}
+
+ul{
+    display: flex;
+    flex: 3 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px solid #ffbbbb ;
+}
