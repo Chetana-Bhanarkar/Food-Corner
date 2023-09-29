@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TitleComponent implements OnInit{
   constructor(){}
   
+  ngOnInit(): void {}
+  
   @Input()
    title ! : string ; 
   
@@ -17,5 +19,4 @@ export class TitleComponent implements OnInit{
   @Input() 
   fontSize?='1.7rem';
   
-  ngOnInit(): void {}
 }
