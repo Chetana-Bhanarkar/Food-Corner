@@ -27,10 +27,10 @@
                 <button class="remove-button" (click)="removeFromCart(cartitem)">Remove</button>
             </div>
         </li>
-        <div class="checkout">
-            <div class="food-count">{{cart.totalCount}}</div>
-            <div class="food-count">{{cart.totalPrice}}</div>
-        </div>
     </ul>
-    <a routerLink="/checkout">Proceed to Checkout</a>
+    <div class="checkout">
+        <div class="food-count">{{cart.totalCount}}</div>
+        <div class="food-count">{{cart.totalPrice}}</div>
+        <a routerLink="/checkout">Proceed to Checkout</a>
+    </div>
 </div>
