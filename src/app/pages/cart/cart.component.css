@@ -36,3 +36,21 @@ li img{
     border-radius: 100rem;
     object-fit: cover;
 }
+
+li div{
+    padding: 1rem;
+}
+
+li div:not(:first-child){
+    flex-basis: 18%;
+}
+
+li select{
+    width: 3rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 1.1rem;
+    font-weight: 200;
+    
+}
