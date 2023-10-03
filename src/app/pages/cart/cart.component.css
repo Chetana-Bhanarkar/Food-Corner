@@ -26,3 +26,13 @@ ul li{
     border-bottom: 1px solid #e4e4e4;
 }
 
+ul li:last-child{
+    border: none;
+}
+
+li img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
