@@ -12,7 +12,8 @@
                 </a>
             </div>
             <div>
-                <select name="" id="" #quantitySelect [value]="cartitem.quantity" (change)="changeQuantity(cartitem , quantitySelect.value)" >
+                <select name="" id="" #quantitySelect [value]="cartitem.quantity"
+                    (change)="changeQuantity(cartitem , quantitySelect.value)">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -29,8 +30,10 @@
         </li>
     </ul>
     <div class="checkout">
-        <div class="food-count">{{cart.totalCount}}</div>
-        <div class="food-count">{{cart.totalPrice}}</div>
+        <div>
+            <div class="food-count">{{cart.totalCount}}</div>
+            <div class="total-price">{{cart.totalPrice}}</div>
+        </div>
         <a routerLink="/checkout">Proceed to Checkout</a>
     </div>
 </div>
