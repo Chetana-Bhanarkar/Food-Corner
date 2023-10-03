@@ -92,3 +92,17 @@ li .remove-button:hover{
     justify-content: center;
     align-items: flex-start;
 }
+
+.food-count{
+    margin-bottom: 1.5rem;
+}
+
+.food-count::before{
+    content: "Count : ";
+    color: #e72929;
+}
+
+.total-price::before{
+    content: "Price : ";
+    color: #e72929;
+}
