@@ -113,7 +113,7 @@ li .remove-button:hover{
     background-color: #e72929;
     display: block;
     width: 99%;
-    border-radius: 2rem;
+    border-radius: 1rem;
     text-align: center;
     opacity: 0.7;
     justify-self: center;
