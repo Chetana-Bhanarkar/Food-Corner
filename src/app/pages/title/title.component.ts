@@ -19,4 +19,5 @@ export class TitleComponent implements OnInit{
   @Input() 
   fontSize?='1.7rem';
   
+  
 }
