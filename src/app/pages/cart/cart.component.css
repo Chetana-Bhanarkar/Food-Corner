@@ -70,6 +70,7 @@ li .remove-button:hover{
     opacity: 1;
 }
 
+
 .checkout{
     display: flex;
     flex-direction: column;
@@ -123,3 +124,4 @@ li .remove-button:hover{
     opacity: 1;
     cursor: pointer;
 }
+
