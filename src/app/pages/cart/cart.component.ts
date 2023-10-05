@@ -26,5 +26,6 @@ export class CartComponent implements OnInit{
     const count = parseInt(quantity);
     this._cartService.changeQuantity(cartItem.food.id , count) ; 
   }
+  
 
 }
